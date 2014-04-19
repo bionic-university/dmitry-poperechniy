@@ -1,17 +1,10 @@
 <?php
-header('Content-Type: text/html; charset=utf-8');
-
-$array = [];
-
-for ($i = 0; $i < 100; $i++) {
-    //array_push($array, $i);
-    $array[] = $i;
-}
-
-unset($array[47]);
-
-//$a = [2, 1, 4, 6, 5, 7, 8, 10, 9];
-
+/**
+ * 26. Найти пропущенный элемент в массиве, в котором есть все числа от 0 до 99 кроме одного (его и найти)
+ *
+ * @param array $arr
+ * @return int
+ */
 function findMissingNumber($arr) {
     if (!$arr) {
         //throw new Exception('Массив не передан в аргументе функции.');
@@ -37,10 +30,3 @@ function findMissingNumber($arr) {
 
     return $total;
 }
-
-echo "Missing number in array: ".findMissingNumber($array   );
-
-
-
-
-
