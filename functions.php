@@ -6,27 +6,15 @@
  * @return float
  */
 function findMissingNumber($arr) {
-    if (!$arr) {
-        //throw new Exception('Массив не передан в аргументе функции.');
-        echo "Массив не передан в аргумент.";
-        die();
-    }
-
-    $size = count($arr);
+	assert(is_array($arr));
+    $n = count($arr);
 
     //get the sum of numbers including missing number
-    if ($arr[0] == 0) {
-        $total = $size * ($size + 1) / 2;
-    } else if ($arr[0] == 1) {
-        $total = ($size + 1) * ($size + 2) / 2;
-    } else {
-        echo 'Массив должен начинаться с 0 или 1.';
-        die();
-    }
+    $total = ($n + 1) * ($n + 2) / 2;
+	
     //Subtract all the numbers from sum and you will get the missing number.
-    for ($i = 0; $i < $size; $i++) {
+    for ($i = 0; $i < $n; $i++) 
         $total -= $arr[$i];
-    }
 
     return $total;
 }
@@ -37,7 +25,6 @@ function findMissingNumber($arr) {
  * @param array $arr
  * @return mixed
  */
-
 function findMode1(array $arr) {
     $values = array_count_values($arr);
     $mode = array_search(max($values), $values);
@@ -52,9 +39,7 @@ function findMode1(array $arr) {
  * @return array|bool Return mode value if there is only one, array of values if bimodel or FALSE if no mode.
  */
 function findMode2(array $arr) {
-    if (!is_array($arr)) {
-        return false;
-    }
+    assert(is_array($arr));
 
     $values = array_count_values($arr);
     //sort values in descending order
@@ -80,22 +65,106 @@ function findMode2(array $arr) {
  * @return bool|float|null
  */
 function findMedian($array) {
-    if (!is_array($array)) {
-        return false;
-    }
+    assert(is_array($array));
     $count = count($array);
 
-    if ($count == 0) {
-        return null;
-    }
-    sort($array, SORT_NUMERIC);
+    if ($count == 0) 
+        return FALSE;
+    
+    sort($array, SORT_NUMERIC);    
+    return $array[floor($count / 2)];
+}
 
-    $middleIndex = floor($count / 2);
-    $median = $array[$middleIndex];
-    //if odd $count, middle is the median
-    if ($count % 2 != 0) {
-        return $median;
-    }
-    //if even $count, calculate avg of 2 medians
-    return ($median + $array[$middleIndex-1]) / 2;
+/**
+ * 1.Для заданого числа сгенерировать массив с числами возрастающими от центра
+ * 6   4   2   1   3   5   7
+ *
+ * @param $n
+ * @return array
+ */
+function pendulumGenerator($n) {
+	$arr = array();
+	
+	for ($i = 0; $i < floor($n / 2); $i++)
+			$arr[$i] = ($n - $n % 2) - 2 * $i;
+		
+	for ($i = floor($n / 2); $i < $n; $i++)
+			$arr[$i] = 1 + 2 * ($i - (floor($n / 2)));
+
+	return $arr;
+}
+
+/**
+ * 2. Повторить 1) но заполнять числами Фибоначи (нельзя использовать рекурсию, вспомогательные массивы)
+ *
+ * @param $n
+ * @return int
+ */
+function fibonaciNumber($n) {	
+	//return $n < 3 ? 1 : fibonaciNumber($n - 1) + fibonaciNumber($n - 2);
+	$a1 = 1;
+	$a2 = 1;
+	
+	for ($i = 1; $i < $n; $i++){
+		$a2 = $a2 + $a1;
+		$a1 = $a2 - $a1;
+	}
+	
+	return $a1;
+}
+
+function pendulumFibonaciGenerator($n) {
+	$arr = array();
+	$arr = pendulumGenerator($n);
+	
+	for ($i = 0; $i < count($arr); $i++) {
+		$arr[$i] = fibonaciNumber($arr[$i]);
+	}	
+	
+	return $arr;
+}
+
+function pendulumFibonaciIteration($n) {
+	$arr = array();
+	$i = floor($n / 2);
+	$x = 1;
+	//merge with fibonaciNumber
+	while ($i < $n && $i >= 0) {
+		$arr[$i] = $x;
+		$i += pow(-1, $x % 2) * $x++;
+	}
+	
+	return $arr;
+}
+
+/**
+ * 3) Найти н-тое по счету самое большое число в массиве
+ * 
+ * @param $arr
+ * @param $limit
+ * @return bool
+ */
+function findLimitedMax($arr, $limit) {
+	$max = false;
+	if ($limit === false)
+		return false;
+	
+	for ($i = 0; $i < count($arr); $i++) {
+		if ($arr[$i] >= $limit)
+			continue;
+		
+		if ($max === false)
+			$max = $arr[$i];
+		else if ($arr[$i] > $max)
+			$max = $arr[$i];
+	}
+	return $max;
+}
+
+function findNthMax($arr, $n) {
+	$max = 100000;	
+	for ($i = 0; $i < $n; $i++) 
+		$max = findLimitedMax($arr, $max);
+	
+	return $max;	
 }
