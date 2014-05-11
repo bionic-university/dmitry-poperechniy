@@ -8,12 +8,16 @@
 
 namespace Realtor\Application;
 
+include_once('DiscountTrait.php');
+
 /**
  * Class House
  * @package Realtor\Application
  */
 class House extends AbstractHousing implements ChargeableInterface
 {
+    use DiscountTrait;
+
     /**
      * @var float|null
      */
@@ -70,7 +74,7 @@ class House extends AbstractHousing implements ChargeableInterface
      */
     public function getPrice()
     {
-        return $this->price;
+        return ($this->price - $this->getDiscount());
     }
 
     /**
@@ -79,11 +83,11 @@ class House extends AbstractHousing implements ChargeableInterface
     protected function getValue()
     {
         $base = "HOUSE: " . "\n";
-        $base .= "Address: {$this->address}" . "\n";
-        $base .= "Area: {$this->square} meters" . "\n";
-        $base .= "Price: {$this->price}" ."\n";
-        $base .= "Territory: {$this->territory}" . " acres\n";
-        $base .= "Garage: {$this->garage}" . "\n";
+        $base .= "Address: {$this->getAddress()}" . "\n";
+        $base .= "Area: {$this->getSquare()} meters" . "\n";
+        $base .= "Price: {$this->getPrice()}" ."\n";
+        $base .= "Territory: {$this->getTerritory()}" . " acres\n";
+        $base .= "Garage: {$this->getGarage()}" . "\n";
 
         return $base;
     }

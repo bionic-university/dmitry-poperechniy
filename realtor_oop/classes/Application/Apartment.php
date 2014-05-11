@@ -57,10 +57,10 @@ class Apartment extends AbstractHousing implements ChargeableInterface
     protected function getValue()
     {
         $base = "APARTMENT: " . "\n";
-        $base .= "Address: {$this->address}" . "\n";
-        $base .= "Area: {$this->square} meters" . "\n";
-        $base .= "Price: {$this->price}" ."\n";
-        $base .= "Number of rooms: {$this->rooms}" . "\n";
+        $base .= "Address: {$this->getAddress()}" . "\n";
+        $base .= "Area: {$this->getSquare()} meters" . "\n";
+        $base .= "Price: {$this->getPrice()}" ."\n";
+        $base .= "Number of rooms: {$this->getRooms()}" . "\n";
 
         return $base;
     }
