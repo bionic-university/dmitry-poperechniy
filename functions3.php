@@ -139,7 +139,7 @@ function pendulumFibonaciIteration($n) {
 
 /**
  * 3) Найти н-тое по счету самое большое число в массиве
- * 
+ *
  * @param $arr
  * @param $limit
  * @return bool
@@ -167,4 +167,116 @@ function findNthMax($arr, $n) {
 		$max = findLimitedMax($arr, $max);
 	
 	return $max;	
+}
+
+/**
+ * 7) Найти все числа от 1 до 1000 двоично представления которых является полиндромом.
+ *
+ */
+function isPolindrom($n)
+{
+    $reversed = 0;
+    $original = $n;
+
+    while ($n > 0) {
+        $reversed = $reversed * 10 + $n % 10;
+        $n = floor($n / 10);
+    }
+
+    return ($reversed == $original);
+    //return $reversed == $original ? true : false;
+}
+
+function convertDecimalTo($n, $base)
+{
+    $ostatok = '';
+
+    while ($n > 0) {
+        $temp = $n % $base;
+        $ostatok = $temp.$ostatok;
+        $n = floor($n / $base);
+    }
+    return $ostatok;
+}
+
+function findPolindroms($from, $to)
+{
+    for ($i = $from; $i <= $to; $i++){
+        $n = convertDecimalTo($i, 2);
+
+        if (isPolindrom($n)) {
+            //как тут можно возвращать без echo?
+            echo $n . "<br/>";
+        }
+    }
+}
+
+
+/**
+ * 8) Найти все числа от 1 до 1000 в троичной записи которых количество нулей, едениц и двоек - одинаково.
+ */
+function findEqualNumbersInTernary($from , $to)
+{
+    for ($i = $from; $i <= $to; $i++) {
+        $n = convertDecimalTo($i, 3);
+
+        $temp = $n;
+        $zero = 0;
+        $one = 0;
+        $two = 0;
+
+        while ($n > 0) {
+            $ostatok = $n % 10;
+
+            if ($ostatok == 0) {
+                $zero++;
+            } else if ($ostatok == 1) {
+                $one++;
+            } else {
+                $two++;
+            }
+
+            $n = floor($n / 10);
+        }
+
+        if ($zero == $two && $two == $one) {
+            echo $temp . "<br/>";
+        }
+    }
+}
+
+/**
+ * 9) Найти все числа от 1 до 1000 для которых записи в двоичной, троичной, пятеричной
+ * системе счисления -   отсортированы (для всех одновременно)
+ */
+//check if number is sorted
+function sorted ($n)
+{
+    $arr = [];
+    //convert int to array
+    while ($n > 0) {
+        $ostatok = $n % 10;
+        array_push($arr, $ostatok);
+        $n = floor($n / 10);
+    }
+    //check if array is sorted
+    for ($i = 1; $i < count($arr); $i++){
+        if ($arr[$i - 1] < $arr[$i]) {
+            return false;
+        }
+    }
+    return true;
+}
+
+function findSorted2_3_5Numbers($from, $to)
+{
+    for ($i = $from; $i <= $to; $i++) {
+        $n_2 = convertDecimalTo($i, 2);
+        $n_3 = convertDecimalTo($i, 3);
+        $n_5 = convertDecimalTo($i, 5);
+
+        if (sorted($n_2) && sorted($n_3) && sorted($n_5)) {
+            echo $i . "<br/>";
+        }
+    }
 }

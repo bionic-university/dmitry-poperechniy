@@ -1,0 +1,12 @@
+{
+    "name": "root/bionic.dev",
+    "authors": [
+        {
+            "name": "Dmytro Poperechnyy",
+            "email": "adifucan@gmail.com"
+        }
+    ],
+    "require": {
+	"phpunit/phpunit" : "*"
+    }
+}

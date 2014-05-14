@@ -75,7 +75,7 @@ abstract class AbstractBuilding
 }
 
 
-class House extends AbstractBuilding
+class Housee extends AbstractBuilding
 {
     private $livingArea = 0;
     private $notLivingArea = 0;
