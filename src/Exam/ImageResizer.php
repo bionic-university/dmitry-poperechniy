@@ -12,7 +12,8 @@ namespace Exam;
 class ImageResizer extends AbstractResizer implements ImageInterface
 {
     private $image;
-    
+    private $imageResized;
+
     const WIDTH = 150;
     const HEIGHT = 150;
 
@@ -59,6 +60,8 @@ class ImageResizer extends AbstractResizer implements ImageInterface
         $cropStartY = ($height / 2) - (self::HEIGHT / 2);
 
         $this->image = imagecreatetruecolor(self::WIDTH, self::HEIGHT);
+        $this->image = imagecopyresampled($this->image, $this->imageResized,
+            0, 0, 0, 0, )
 
     }
 }
