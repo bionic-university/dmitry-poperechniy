@@ -3,7 +3,11 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
+<<<<<<< HEAD
     "hash": "1f2c17702c86f819873d994ee748f7d9",
+=======
+    "hash": "1727078ecc4ecd872832581ea52f9d5d",
+>>>>>>> 4ccae8cc17a124f27b4b92c56551509da5cb382c
     "packages": [
         {
             "name": "phpunit/php-code-coverage",
@@ -652,6 +656,7 @@
             "time": "2014-03-07 15:35:33"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/class-loader",
             "version": "2.4.x-dev",
             "target-dir": "Symfony/Component/ClassLoader",
@@ -704,6 +709,8 @@
             "time": "2014-04-16 10:34:31"
         },
         {
+=======
+>>>>>>> 4ccae8cc17a124f27b4b92c56551509da5cb382c
             "name": "symfony/yaml",
             "version": "v2.4.4",
             "target-dir": "Symfony/Component/Yaml",
@@ -760,12 +767,21 @@
 
     ],
     "minimum-stability": "stable",
+<<<<<<< HEAD
     "stability-flags": {
         "symfony/class-loader": 20
     },
     "platform": {
         "php": ">=5.4.0"
     },
+=======
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+>>>>>>> 4ccae8cc17a124f27b4b92c56551509da5cb382c
     "platform-dev": [
 
     ]
