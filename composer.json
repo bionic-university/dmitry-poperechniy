@@ -1,0 +1,14 @@
+{
+    "name": "transversus/bionic",
+    "authors": [
+        {
+            "name": "Dmytro Poperechnyy",
+            "email": "adifucan@gmail.com"
+        }
+    ],
+    "require": {
+	    "phpunit/phpunit": "*",
+        "php":">=5.4.0",
+        "symfony/class-loader": "2.4.x-dev"
+    }
+}
