@@ -12,7 +12,7 @@ namespace Exam;
 interface ImageInterface
 {
 
-    public function getHeight($image);
+    public function getHeight($file);
 
-    public function getWidth($image);
+    public function getWidth($file);
 }

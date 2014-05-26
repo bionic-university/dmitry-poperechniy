@@ -8,60 +8,67 @@
 
 namespace Exam;
 
+include_once('ImageInterface.php');
 
-class ImageResizer extends AbstractResizer implements ImageInterface
+class ImageResizer implements ImageInterface
 {
-    private $image;
-    private $imageResized;
+    const tWidth = 100;
 
-    const WIDTH = 150;
-    const HEIGHT = 150;
+    protected $fileName;
+    protected $height;
+    protected $width;
+
+    //protected $supportedExts = ['gif','jpg','jpeg','png'];
 
     public function __construct($fileName)
     {
-        $this->image = $this->openImage($fileName);
+        $this->fileName = $fileName;
+        $this->width = $this->getWidth($fileName);
+        $this->height = $this->getHeight($fileName);
     }
 
-    protected function openImage($fileName)
+    public function imageCreate($fileName){
+        $im = imagecreatefromjpeg($fileName);
+        return $im;
+    }
+
+    public function getWidth($fileName)
     {
-        //works only with .jpeg extensions
-        $image = @imagecreatefromjpeg($fileName);
+        return imagesx($fileName);
+    }
 
-        if ($image) {
-            //create black image
-            $image = imagecreatetruecolor(150, 150);
-            $bgc = imagecolorallocate($image, 255, 255, 255);
-            $tc  = imagecolorallocate($image, 0, 0, 0);
+    public function getHeight($fileName)
+    {
+        return imagesy($fileName);
+    }
 
-            imagefilledrectangle($image, 0, 0, 150, 150, $bgc);
+    public function HorizontalVertical(){
+        /* Calculate the New Image Dimensions */
+        if( $this->height > $this->width ) {
+            /* Portrait */
+            $newWidth = self::tWidth;
+            $newHeight = $this->height * ( self::tWidth / $newWidth );
+        } else {
+            /* Landscape */
+            $newHeight = self::tWidth;
+            $newWidth = $this->width * (self::tWidth / $newHeight );
         }
-        return $image;
     }
 
-    public function getWidth($image)
-    {
-        list($width) = getimagesize($image);
-        return $width;
-    }
-
-    public function getHeight($image)
-    {
-        list($height) = getimagesize($image);
-        return $height;
-    }
-
-    public function thumbnail($image)
-    {
-        $width = $this->getWidth($image);
-        $height = $this->getHeight($image);
-
-        //find center
-        $cropStartX = ($width / 2) - (self::WIDTH / 2);
-        $cropStartY = ($height / 2) - (self::HEIGHT / 2);
-
-        $this->image = imagecreatetruecolor(self::WIDTH, self::HEIGHT);
-        $this->image = imagecopyresampled($this->image, $this->imageResized,
-            0, 0, 0, 0, )
-
-    }
 }
+header('Content-Type: image/jpeg');
+
+$file = 'dinosaurs.jpg';
+$image = new ImageResizer($file);
+imagejpeg($image->imageCreate($image));
+imagedestroy($image->imageCreate($image));
+
+
+
+
+
+
+
+
+
+

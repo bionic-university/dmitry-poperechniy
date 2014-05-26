@@ -12,8 +12,8 @@ namespace Exam;
 abstract class AbstractResizer
 {
     /**
-     * @param $image
+     * @param $file
      * @return mixed
      */
-    abstract public function thumbnail($image);
+    abstract public function makeThumbnail($file);
 } 

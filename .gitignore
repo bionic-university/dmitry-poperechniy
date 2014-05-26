@@ -1,3 +1,11 @@
 .idea
-/vendor
+app/cache
+app/logs
+app/build
+coverage
+.DS_Store
+.netbeans
+desktop.ini
+cache.properties
+/vendor/
 
