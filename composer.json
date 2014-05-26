@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "name": "transversus/bionic",
-=======
-    "name": "root/bionic.dev",
->>>>>>> 4ccae8cc17a124f27b4b92c56551509da5cb382c
+    "name": "bionic-university/dmitry-poperechniy",
     "authors": [
         {
             "name": "Dmytro Poperechnyy",
@@ -11,12 +7,8 @@
         }
     ],
     "require": {
-<<<<<<< HEAD
 	    "phpunit/phpunit": "*",
         "php":">=5.4.0",
         "symfony/class-loader": "2.4.x-dev"
-=======
-	"phpunit/phpunit" : "*"
->>>>>>> 4ccae8cc17a124f27b4b92c56551509da5cb382c
     }
 }

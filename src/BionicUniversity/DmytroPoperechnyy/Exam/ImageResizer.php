@@ -8,64 +8,70 @@
 
 namespace BionicUniversity\DmytroPoperechnyy\Exam;
 
-use BionicUniversity\DmytroPoperechnyy\Exam\ImageInterface;
-use BionicUniversity\DmytroPoperechnyy\Exam\AbstractResizer;
-
-
-class ImageResizer extends AbstractResizer implements ImageInterface
+class ImageResizer implements ImageInterface
 {
-    private $image;
-    private $imageResized;
+    const THUMBWIDTH = 100;
 
-    const WIDTH = 150;
-    const HEIGHT = 150;
+    protected $fileName;
+    protected $src;
+    protected $oldWidth;
+    protected $oldHeight;
 
     public function __construct($fileName)
     {
-        $this->image = $this->openImage($fileName);
+        $this->fileName = $fileName;
     }
 
-    protected function openImage($fileName)
+    public function createSource($fileName){
+        $this->src = imagecreatefromjpeg($fileName);
+    }
+
+    public function getWidth($fileName)
     {
-        //works only with .jpeg extensions
-        $image = @imagecreatefromjpeg($fileName);
+        $this->oldWidth = imagesx($fileName);
+    }
 
-        if ($image) {
-            //create black image
-            $image = imagecreatetruecolor(150, 150);
-            $bgc = imagecolorallocate($image, 255, 255, 255);
-            $tc  = imagecolorallocate($image, 0, 0, 0);
+    public function getHeight($fileName)
+    {
+        $this->oldHeight = imagesy($fileName);
+    }
 
-            imagefilledrectangle($image, 0, 0, 150, 150, $bgc);
+    public function HorizontalVertical($width, $height){
+        if( $height > $width ) {
+            /* Portrait */
+            $newWidth = self::THUMBWIDTH;
+            $newHeight = $height * ( self::THUMBWIDTH / $newWidth );
+        } else {
+            /* Landscape */
+            $newHeight = self::THUMBWIDTH;
+            $newWidth = $width * (self::THUMBWIDTH / $newHeight );
         }
-        return $image;
+        return [$newWidth, $newHeight];
     }
 
-    public function getWidth($image)
+    public function imageCreate($src, $oldWidth, $oldHeight, $newWidth, $newHeight)
     {
-        list($width) = getimagesize($image);
-        return $width;
-    }
-
-    public function getHeight($image)
-    {
-        list($height) = getimagesize($image);
-        return $height;
-    }
-
-    public function thumbnail($image)
-    {
-        $width = $this->getWidth($image);
-        $height = $this->getHeight($image);
-
-        //find center
-        $cropStartX = ($width / 2) - (self::WIDTH / 2);
-        $cropStartY = ($height / 2) - (self::HEIGHT / 2);
-
-        $this->image = imagecreatetruecolor(self::WIDTH, self::HEIGHT);
-        $this->image = imagecopyresampled($this->image, $this->imageResized,
-            0, 0, 0, 0, $cropStartX, $cropStartY, self::WIDTH, self::HEIGHT);
-
-        return $this->image;
+        $new = imagecreatetruecolor(self::THUMBWIDTH, self::THUMBWIDTH);
+        imagecopyresampled(
+            $new, $src, 0, 0, ($newWidth - self::THUMBWIDTH)/2, ( $newHeight-self::THUMBWIDTH)/2,
+            self::THUMBWIDTH, self::THUMBWIDTH, $oldWidth, $oldHeight
+        );
+        return imagejpeg($new , self::THUMBWIDTH);
     }
 }
+
+/**
+header('Content-Type: image/jpeg');
+
+$file = 'dinosaurs.jpg';
+$image = new ImageResizer($file);
+*/
+
+
+
+
+
+
+
+
+
