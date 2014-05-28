@@ -6,11 +6,11 @@
  * Time: 9:59 PM
  */
 
-namespace Realtor\Housing;
+namespace BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application;
 
 /**
  * Interface ContactableInterface
- * @package Realtor\Housing
+ * @package BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application
  */
 interface ContactableInterface
 {

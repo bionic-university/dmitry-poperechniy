@@ -6,11 +6,11 @@
  * Time: 7:52 PM
  */
 
-namespace Realtor\Housing;
+namespace BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application;
 
 /**
  * Class Apartment
- * @package Realtor\Housing
+ * @package BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application
  */
 class Apartment extends AbstractHousing
 {

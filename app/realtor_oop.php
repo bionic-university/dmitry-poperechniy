@@ -6,16 +6,10 @@
  * Time: 7:50 PM
  */
 
-/*
-spl_autoload_register(function ($class) {
-    if (file_exists('classes/' . $class . '.php')) {
-        include 'classes/' . $class . '.php';
-    }
-});
-*/
-require_once __DIR__ . 'autoload.php';
+require_once __DIR__ . '/../bootstrap.php';
 
-function stdin(){
+function stdin()
+{
     $stdin = fopen('php://stdin', 'r');
     $line = trim(fgets($stdin));
     fclose($stdin);
@@ -29,7 +23,7 @@ if ($string === '') {
     echo "Empty string";
     return;
 } else {
-    $realtor = new Realtor($string, '911');
+    $realtor = new BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Realtor($string, '911');
 }
 
 $realtor->greeting();

@@ -6,30 +6,29 @@
  * Time: 7:50 PM
  */
 
-include_once('Housing/AbstractHousing.php');
-include_once('Housing/Apartment.php');
-include_once('Housing/House.php');
-include_once('Housing/Room.php');
-include_once('General/TraitContactable.php');
-include_once('General/IDescrizable.php');
+namespace BionicUniversity\DmytroPoperechnyy\RealtorOop\Code;
 
-use \Realtor\Housing\AbstractHousing;
-use \Realtor\Housing\House;
-use \Realtor\Housing\Room;
-use \Realtor\Housing\Apartment;
-use \Realtor\General\TraitContactable;
-use \Realtor\General\IDescrizable;
+use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\DesribableInterface;
+use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\ContactableTrait;
+use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\Apartment;
+use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\House;
+use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\Room;
+use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\AbstractHousing;
 
 /**
  * Class Realtor
  */
-class Realtor implements IDescrizable
+class Realtor implements DesribableInterface
 {
-    use TraitContactable;
+    use ContactableTrait;
     /**
      * @var string
      */
     private $name;
+
+    /**
+     * @var array
+     */
     private $database = [];
 
     public function __construct($name, $contact)

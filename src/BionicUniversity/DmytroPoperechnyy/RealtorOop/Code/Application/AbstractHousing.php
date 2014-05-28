@@ -5,19 +5,15 @@
  * Date: 5/11/14
  * Time: 7:50 PM
  */
-namespace Realtor\Housing;
-
-include_once('../General/TraitContactable.php');
-
-use \Realtor\General\TraitContactable;
+namespace BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application;
 
 /**
  * Class AbstractHousing
- * @package Realtor\Housing
+ * @package BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application
  */
 abstract class AbstractHousing
 {
-    use TraitContactable;
+    use ContactableTrait;
     /**
      * @var string
      */

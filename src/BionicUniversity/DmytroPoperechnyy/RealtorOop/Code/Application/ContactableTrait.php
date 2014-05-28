@@ -6,13 +6,13 @@
  * Time: 1:05 AM
  */
 
-namespace Realtor\General;
+namespace BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application;
 
 /**
- * Class TraitContactable
- * @package Realtor\Housing
+ * Class ContactableTrait
+ * @package BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application
  */
-trait TraitContactable
+trait ContactableTrait
 {
     protected $contact;
 
