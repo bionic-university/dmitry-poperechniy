@@ -8,11 +8,21 @@
 
 namespace BionicUniversity\DmytroPoperechnyy\Exam;
 
-
+/**
+ * Interface ImageInterface
+ * @package BionicUniversity\DmytroPoperechnyy\Exam
+ */
 interface ImageInterface
 {
-
+    /**
+     * @param $image
+     * @return mixed
+     */
     public function getHeight($image);
 
+    /**
+     * @param $image
+     * @return mixed
+     */
     public function getWidth($image);
 }

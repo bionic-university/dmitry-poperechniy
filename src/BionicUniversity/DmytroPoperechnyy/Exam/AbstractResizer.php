@@ -8,7 +8,10 @@
 
 namespace BionicUniversity\DmytroPoperechnyy\Exam;
 
-
+/**
+ * Class AbstractResizer
+ * @package BionicUniversity\DmytroPoperechnyy\Exam
+ */
 abstract class AbstractResizer
 {
     /**

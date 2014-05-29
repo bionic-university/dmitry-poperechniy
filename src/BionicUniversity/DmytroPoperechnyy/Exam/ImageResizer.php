@@ -8,34 +8,72 @@
 
 namespace BionicUniversity\DmytroPoperechnyy\Exam;
 
+/**
+ * Class ImageResizer
+ * @package BionicUniversity\DmytroPoperechnyy\Exam
+ */
 class ImageResizer implements ImageInterface
 {
     const THUMBWIDTH = 100;
 
+    /**
+     * @var string
+     */
     protected $fileName;
+
+    /**
+     * @var string
+     */
     protected $src;
+
+    /**
+     * @var int
+     */
     protected $oldWidth;
+
+    /**
+     * @var int
+     */
     protected $oldHeight;
 
+    /**
+     * @param $fileName
+     */
     public function __construct($fileName)
     {
         $this->fileName = $fileName;
     }
 
+    /**
+     * @param $fileName
+     */
     public function createSource($fileName){
         $this->src = imagecreatefromjpeg($fileName);
     }
 
+    /**
+     * @param $fileName
+     * @return mixed|void
+     */
     public function getWidth($fileName)
     {
         $this->oldWidth = imagesx($fileName);
     }
 
+    /**
+     * @param $fileName
+     * @return mixed|void
+     */
     public function getHeight($fileName)
     {
         $this->oldHeight = imagesy($fileName);
     }
 
+    /**
+     * @param $width
+     * @param $height
+     * @return array
+     */
     public function HorizontalVertical($width, $height){
         if( $height > $width ) {
             /* Portrait */
@@ -49,6 +87,14 @@ class ImageResizer implements ImageInterface
         return [$newWidth, $newHeight];
     }
 
+    /**
+     * @param $src
+     * @param $oldWidth
+     * @param $oldHeight
+     * @param $newWidth
+     * @param $newHeight
+     * @return bool
+     */
     public function imageCreate($src, $oldWidth, $oldHeight, $newWidth, $newHeight)
     {
         $new = imagecreatetruecolor(self::THUMBWIDTH, self::THUMBWIDTH);
