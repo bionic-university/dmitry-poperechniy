@@ -16,11 +16,17 @@ trait ContactableTrait
 {
     protected $contact;
 
+    /**
+     * @return mixed
+     */
     public function getContact()
     {
         return $this->contact;
     }
 
+    /**
+     * @param $contact
+     */
     public function setContact($contact)
     {
         $this->contact = $contact;

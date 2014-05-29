@@ -24,6 +24,15 @@ class House extends AbstractHousing
      */
     private $garageCount;
 
+    /**
+     * @param $address
+     * @param $square
+     * @param int $availability
+     * @param $price
+     * @param int $territory
+     * @param null $garageCount
+     * @param $contact
+     */
     public function __construct(
         $address, $square, $availability = 1,
         $price, $territory, $garageCount = null, $contact

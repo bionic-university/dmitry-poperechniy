@@ -16,12 +16,15 @@ use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\Room;
 use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\AbstractHousing;
 
 /**
+ * Class Realtor that implements DescribableInterface
+ *
  * Class Realtor
  * @package BionicUniversity\DmytroPoperechnyy\RealtorOop\Code
  */
 class Realtor implements DesribableInterface
 {
     use ContactableTrait;
+
     /**
      * @var string
      */
@@ -32,6 +35,10 @@ class Realtor implements DesribableInterface
      */
     private $database = [];
 
+    /**
+     * @param $name
+     * @param $contact
+     */
     public function __construct($name, $contact)
     {
         $this->name = $name;

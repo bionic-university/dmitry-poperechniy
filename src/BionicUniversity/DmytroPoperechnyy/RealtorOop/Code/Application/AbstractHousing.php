@@ -8,6 +8,8 @@
 namespace BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application;
 
 /**
+ * AbstractHousing Class with main methods
+ *
  * Class AbstractHousing
  * @package BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application
  */
@@ -34,15 +36,25 @@ abstract class AbstractHousing
      */
     protected $price;
 
-    public function __construct($address, $square, $availability = 1, $price, $contact)
+    /**
+     * @param $address
+     * @param $square
+     * @param $price
+     * @param $contact
+     * @param int $availability
+     */
+    public function __construct($address, $square, $price, $contact, $availability = 1)
     {
         $this->address = $address;
         $this->square = $square;
-        $this->availability = $availability;
         $this->price = $price;
         $this->contact = $contact;
+        $this->availability = $availability;
     }
-    
+
+    /**
+     * @return mixed
+     */
     abstract public function verifyData();
 
     /**
@@ -101,6 +113,9 @@ abstract class AbstractHousing
         $this->price = $price;
     }
 
+    /**
+     * @return string
+     */
     public function printOut()
     {
         print $this->getDescription();

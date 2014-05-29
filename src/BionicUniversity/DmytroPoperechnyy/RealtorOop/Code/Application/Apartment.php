@@ -9,6 +9,8 @@
 namespace BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application;
 
 /**
+ * Class Apartment than extends AbstractHousing
+ *
  * Class Apartment
  * @package BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application
  */
@@ -19,6 +21,14 @@ class Apartment extends AbstractHousing
      */
     private $rooms;
 
+    /**
+     * @param $address
+     * @param $square
+     * @param int $availability
+     * @param $price
+     * @param int $rooms
+     * @param $contact
+     */
     public function __construct($address, $square, $availability = 1, $price, $rooms, $contact)
     {
         parent::__construct($address, $square, $availability, $price, $contact);

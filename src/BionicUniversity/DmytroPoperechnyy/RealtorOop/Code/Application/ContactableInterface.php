@@ -14,5 +14,8 @@ namespace BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application;
  */
 interface ContactableInterface
 {
+    /**
+     * @return mixed
+     */
     public function getContact();
 } 

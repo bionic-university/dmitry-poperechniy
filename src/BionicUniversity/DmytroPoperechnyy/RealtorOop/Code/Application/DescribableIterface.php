@@ -7,6 +7,9 @@ namespace BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application;
  */
 interface DesribableInterface
 {
+    /**
+     * @return mixed
+     */
     public function getDescription();
 }
 
