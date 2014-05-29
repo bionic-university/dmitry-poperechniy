@@ -17,6 +17,7 @@ use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\AbstractHousi
 
 /**
  * Class Realtor
+ * @package BionicUniversity\DmytroPoperechnyy\RealtorOop\Code
  */
 class Realtor implements DesribableInterface
 {
@@ -35,7 +36,7 @@ class Realtor implements DesribableInterface
     {
         $this->name = $name;
         $this->contact = $contact;
-	$this->importDatabase();
+	    $this->importDatabase();
     }
 
     /**
