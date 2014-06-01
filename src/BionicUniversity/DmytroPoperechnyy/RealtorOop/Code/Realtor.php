@@ -44,7 +44,7 @@ class Realtor implements DesribableInterface
     {
         $this->name = $name;
         $this->contact = $contact;
-	    $this->importDatabase();
+        $this->importDatabase();
     }
 
     /**
@@ -84,13 +84,14 @@ class Realtor implements DesribableInterface
     public function checkHouse($space)
     {
 		foreach ($this->database as $housing) {
-		if ($housing instanceof AbstractHousing) {
-			if ($housing->getSquare() >= $space && $housing->getAvailability() == 1 && $housing->verifyData()) {
-				$housing->printOut();
-                                echo "\n";
-				}
-			}
-		}		
+            if ($housing instanceof AbstractHousing) {
+                if ($housing->getSquare() >= $space && $housing->getAvailability() == 1
+                    && $housing->verifyData()) {
+                    $housing->printOut();
+                    echo "\n";
+                }
+            }
+        }
     }
 
     /**

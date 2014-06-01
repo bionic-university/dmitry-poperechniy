@@ -15,7 +15,7 @@ namespace BionicUniversity\DmytroPoperechnyy\Exam;
 abstract class AbstractResizer
 {
     /**
-     * @param $image
+     * @param string $image
      * @return mixed
      */
     abstract public function thumbnail($image);

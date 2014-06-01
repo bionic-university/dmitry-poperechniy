@@ -30,13 +30,13 @@ class House extends AbstractHousing
      * @param int $availability
      * @param float $price
      * @param int $territory
-     * @param null $garageCount
      * @param string $contact
+     * @param null $garageCount
      */
     public function __construct(
         $address, $square, $availability = 1,
-        $price, $territory, $garageCount = null, $contact
-    ) {
+        $price, $territory, $contact, $garageCount = null)
+    {
         parent::__construct($address, $square, $availability, $price, $contact);
         $this->territory = $territory;
         $this->garageCount = $garageCount;

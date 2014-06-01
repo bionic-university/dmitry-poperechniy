@@ -24,13 +24,13 @@ class Room extends AbstractHousing
      * @param float $square
      * @param int $availability
      * @param float $price
-     * @param null $balcony
      * @param int $contact
+     * @param null $balcony
      */
     public function __construct(
         $address, $square, $availability = 1,
-        $price, $balcony = null, $contact
-    ) {
+        $price, $contact, $balcony = null)
+    {
         parent::__construct($address, $square, $availability, $price, $contact);
         $this->balcony = $balcony;
     }
@@ -44,7 +44,7 @@ class Room extends AbstractHousing
     }
 
     /**
-     * @param $balcony
+     * @param int $balcony
      */
     public function setBalcony($balcony)
     {

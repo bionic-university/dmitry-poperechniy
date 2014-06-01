@@ -15,13 +15,13 @@ namespace BionicUniversity\DmytroPoperechnyy\Exam;
 interface ImageInterface
 {
     /**
-     * @param $image
+     * @param string $image
      * @return mixed
      */
     public function getHeight($image);
 
     /**
-     * @param $image
+     * @param string $image
      * @return mixed
      */
     public function getWidth($image);

@@ -24,12 +24,12 @@ class Apartment extends AbstractHousing
     /**
      * @param string $address
      * @param float $square
-     * @param int $availability
      * @param float $price
      * @param int $rooms
      * @param string $contact
+     * @param int $availability
      */
-    public function __construct($address, $square, $availability = 1, $price, $rooms, $contact)
+    public function __construct($address, $square, $price, $rooms, $contact, $availability = 1)
     {
         parent::__construct($address, $square, $availability, $price, $contact);
         $this->rooms = $rooms;

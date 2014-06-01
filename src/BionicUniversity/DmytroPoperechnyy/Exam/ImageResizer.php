@@ -47,7 +47,8 @@ class ImageResizer implements ImageInterface
     /**
      * @param string $fileName
      */
-    public function createSource($fileName){
+    public function createSource($fileName)
+    {
         $this->src = imagecreatefromjpeg($fileName);
     }
 
@@ -74,7 +75,8 @@ class ImageResizer implements ImageInterface
      * @param int $height
      * @return array
      */
-    public function HorizontalVertical($width, $height){
+    public function HorizontalVertical($width, $height)
+    {
         if ($height > $width ) {
             /* Portrait */
             $newWidth = self::THUMBWIDTH;
@@ -84,6 +86,7 @@ class ImageResizer implements ImageInterface
             $newHeight = self::THUMBWIDTH;
             $newWidth = $width * (self::THUMBWIDTH / $newHeight);
         }
+
         return [$newWidth, $newHeight];
     }
 
@@ -102,6 +105,7 @@ class ImageResizer implements ImageInterface
             $new, $src, 0, 0, ($newWidth - self::THUMBWIDTH)/2, ($newHeight-self::THUMBWIDTH)/2,
             self::THUMBWIDTH, self::THUMBWIDTH, $oldWidth, $oldHeight
         );
+
         return imagejpeg($new, self::THUMBWIDTH);
     }
 }
