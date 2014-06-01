@@ -29,7 +29,7 @@ class Room extends AbstractHousing
      */
     public function __construct(
         $address, $square, $availability = 1,
-        $price, $contact, $balcony = null)
+        $price, $balcony = null, $contact)
     {
         parent::__construct($address, $square, $availability, $price, $contact);
         $this->balcony = $balcony;

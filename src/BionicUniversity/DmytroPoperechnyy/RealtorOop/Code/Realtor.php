@@ -53,12 +53,12 @@ class Realtor implements DesribableInterface
     public function importDatabase()
     {
         $this->database = [
-            new Apartment('West str.123, New York, USA', 50.5, 1, 1000, 2, $this->contact), 
+            new Apartment('West str.123, New York, USA', 50.5, 1, 1000, 2, $this->contact),
             new Apartment('East str.987, California, USA', 77.5, 1, 900, 3, $this->contact),
             new House('South str.113, Boston, USA', 77.5, 1, 2000, 15, 1, $this->contact),
             new House('Fleet str. 676, Miami, USA', 100, 1, 999, 20, 2, $this->contact),
             new Room('Sunset bulv. 564, San Francisco', 40, 1, 499, 1, $this->contact),
-            new Room('Sherlock Holms str. 111, London, UK', 50.5, 1, 700, 0, $this->contact),
+            new Room('Sherlock Holms str. 111, London, UK', 50.5, 1, 700, 0, $this->contact)
         ];                
     }
 

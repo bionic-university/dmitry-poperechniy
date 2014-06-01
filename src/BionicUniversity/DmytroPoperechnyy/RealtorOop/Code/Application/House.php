@@ -35,7 +35,7 @@ class House extends AbstractHousing
      */
     public function __construct(
         $address, $square, $availability = 1,
-        $price, $territory, $contact, $garageCount = null)
+        $price, $territory, $garageCount = null, $contact)
     {
         parent::__construct($address, $square, $availability, $price, $contact);
         $this->territory = $territory;

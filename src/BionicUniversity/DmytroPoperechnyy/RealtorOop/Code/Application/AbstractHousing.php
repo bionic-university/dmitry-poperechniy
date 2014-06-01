@@ -43,13 +43,13 @@ abstract class AbstractHousing
      * @param string $contact
      * @param int $availability
      */
-    public function __construct($address, $square, $price, $contact, $availability = 1)
+    public function __construct($address, $square, $availability = 1, $price, $contact)
     {
         $this->address = $address;
         $this->square = $square;
+        $this->availability = $availability;
         $this->price = $price;
         $this->contact = $contact;
-        $this->availability = $availability;
     }
 
     /**
