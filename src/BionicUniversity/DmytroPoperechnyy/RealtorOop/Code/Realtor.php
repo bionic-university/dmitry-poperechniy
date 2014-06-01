@@ -106,7 +106,7 @@ class Realtor implements DesribableInterface
      *
      * @return string
      */
-    public function getDescription()
+    public function     getDescription()
     {
         return "My name is: {$this->name}. I'm a Realtor\nYou can contact me at: {$this->contact}\n";
     }

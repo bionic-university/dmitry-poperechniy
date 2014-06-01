@@ -9,6 +9,7 @@
     "require": {
 	    "phpunit/phpunit": "*",
         "php":">=5.4.0",
-        "symfony/class-loader": "2.4.x-dev"
+        "symfony/class-loader": "2.4.*",
+        "pdepend/pdepend" : "1.1.0"
     }
 }
