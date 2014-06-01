@@ -25,7 +25,7 @@ trait ContactableTrait
     }
 
     /**
-     * @param $contact
+     * @param int $contact
      */
     public function setContact($contact)
     {

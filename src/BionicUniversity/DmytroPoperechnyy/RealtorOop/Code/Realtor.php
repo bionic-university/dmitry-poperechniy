@@ -8,6 +8,8 @@
 
 namespace BionicUniversity\DmytroPoperechnyy\RealtorOop\Code;
 
+include('Application/DescribableInterface.php');
+
 use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\DesribableInterface;
 use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\ContactableTrait;
 use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\Apartment;
@@ -18,7 +20,6 @@ use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\AbstractHousi
 /**
  * Class Realtor that implements DescribableInterface
  *
- * Class Realtor
  * @package BionicUniversity\DmytroPoperechnyy\RealtorOop\Code
  */
 class Realtor implements DesribableInterface
@@ -36,8 +37,8 @@ class Realtor implements DesribableInterface
     private $database = [];
 
     /**
-     * @param $name
-     * @param $contact
+     * @param string $name
+     * @param string $contact
      */
     public function __construct($name, $contact)
     {
@@ -57,7 +58,7 @@ class Realtor implements DesribableInterface
             new House('South str.113, Boston, USA', 77.5, 1, 2000, 15, 1, $this->contact),
             new House('Fleet str. 676, Miami, USA', 100, 1, 999, 20, 2, $this->contact),
             new Room('Sunset bulv. 564, San Francisco', 40, 1, 499, 1, $this->contact),
-            new Room('Sherlock Holms str. 111, London, UK', 50.5, 1, 700, 0, $this->contact)
+            new Room('Sherlock Holms str. 111, London, UK', 50.5, 1, 700, 0, $this->contact),
         ];                
     }
 
@@ -70,7 +71,7 @@ class Realtor implements DesribableInterface
     }
 
     /**
-     * @param $name
+     * @param string $name
      */
     public function setName($name)
     {

@@ -25,13 +25,13 @@ class House extends AbstractHousing
     private $garageCount;
 
     /**
-     * @param $address
-     * @param $square
+     * @param string $address
+     * @param float $square
      * @param int $availability
-     * @param $price
+     * @param float $price
      * @param int $territory
      * @param null $garageCount
-     * @param $contact
+     * @param string $contact
      */
     public function __construct(
         $address, $square, $availability = 1,
@@ -51,7 +51,7 @@ class House extends AbstractHousing
     }
 
     /**
-     * @param $territory
+     * @param string $territory
      */
     public function setTerritory($territory)
     {
@@ -67,7 +67,7 @@ class House extends AbstractHousing
     }
 
     /**
-     * @param $garageCount
+     * @param int $garageCount
      */
     public function setGarageCount($garageCount)
     {

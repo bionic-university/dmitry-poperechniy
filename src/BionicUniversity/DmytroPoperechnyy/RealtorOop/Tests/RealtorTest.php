@@ -5,7 +5,8 @@ namespace BionicUniversity\DmytroPoperechnyy\RealtorOop\Tests;
 use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Realtor;
 
 /**
- * Class RealtorTest
+ * Class RealtorTest for tests
+ *
  * @package BionicUniversity\DmytroPoperechnyy\RealtorOop\Tests
  */
 class RealtorTest extends \PHPUnit_Framework_TestCase

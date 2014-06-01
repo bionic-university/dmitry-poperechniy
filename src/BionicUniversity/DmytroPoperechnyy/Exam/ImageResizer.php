@@ -37,7 +37,7 @@ class ImageResizer implements ImageInterface
     protected $oldHeight;
 
     /**
-     * @param $fileName
+     * @param string $fileName
      */
     public function __construct($fileName)
     {
@@ -45,14 +45,14 @@ class ImageResizer implements ImageInterface
     }
 
     /**
-     * @param $fileName
+     * @param string $fileName
      */
     public function createSource($fileName){
         $this->src = imagecreatefromjpeg($fileName);
     }
 
     /**
-     * @param $fileName
+     * @param string $fileName
      * @return mixed|void
      */
     public function getWidth($fileName)
@@ -61,7 +61,7 @@ class ImageResizer implements ImageInterface
     }
 
     /**
-     * @param $fileName
+     * @param string $fileName
      * @return mixed|void
      */
     public function getHeight($fileName)
@@ -70,39 +70,39 @@ class ImageResizer implements ImageInterface
     }
 
     /**
-     * @param $width
-     * @param $height
+     * @param int $width
+     * @param int $height
      * @return array
      */
     public function HorizontalVertical($width, $height){
-        if( $height > $width ) {
+        if ($height > $width ) {
             /* Portrait */
             $newWidth = self::THUMBWIDTH;
-            $newHeight = $height * ( self::THUMBWIDTH / $newWidth );
+            $newHeight = $height * (self::THUMBWIDTH / $newWidth);
         } else {
             /* Landscape */
             $newHeight = self::THUMBWIDTH;
-            $newWidth = $width * (self::THUMBWIDTH / $newHeight );
+            $newWidth = $width * (self::THUMBWIDTH / $newHeight);
         }
         return [$newWidth, $newHeight];
     }
 
     /**
-     * @param $src
-     * @param $oldWidth
-     * @param $oldHeight
-     * @param $newWidth
-     * @param $newHeight
+     * @param string $src
+     * @param int $oldWidth
+     * @param int $oldHeight
+     * @param int $newWidth
+     * @param int $newHeight
      * @return bool
      */
     public function imageCreate($src, $oldWidth, $oldHeight, $newWidth, $newHeight)
     {
         $new = imagecreatetruecolor(self::THUMBWIDTH, self::THUMBWIDTH);
         imagecopyresampled(
-            $new, $src, 0, 0, ($newWidth - self::THUMBWIDTH)/2, ( $newHeight-self::THUMBWIDTH)/2,
+            $new, $src, 0, 0, ($newWidth - self::THUMBWIDTH)/2, ($newHeight-self::THUMBWIDTH)/2,
             self::THUMBWIDTH, self::THUMBWIDTH, $oldWidth, $oldHeight
         );
-        return imagejpeg($new , self::THUMBWIDTH);
+        return imagejpeg($new, self::THUMBWIDTH);
     }
 }
 

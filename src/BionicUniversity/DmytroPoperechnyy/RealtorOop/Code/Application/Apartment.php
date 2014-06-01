@@ -22,12 +22,12 @@ class Apartment extends AbstractHousing
     private $rooms;
 
     /**
-     * @param $address
-     * @param $square
+     * @param string $address
+     * @param float $square
      * @param int $availability
-     * @param $price
+     * @param float $price
      * @param int $rooms
-     * @param $contact
+     * @param string $contact
      */
     public function __construct($address, $square, $availability = 1, $price, $rooms, $contact)
     {
@@ -44,7 +44,7 @@ class Apartment extends AbstractHousing
     }
 
     /**
-     * @param $rooms
+     * @param int $rooms
      */
     public function setRooms($rooms)
     {

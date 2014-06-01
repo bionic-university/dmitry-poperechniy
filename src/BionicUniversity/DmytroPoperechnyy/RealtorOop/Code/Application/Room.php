@@ -20,12 +20,12 @@ class Room extends AbstractHousing
     private $balcony;
 
     /**
-     * @param $address
-     * @param $square
+     * @param string $address
+     * @param float $square
      * @param int $availability
-     * @param $price
+     * @param float $price
      * @param null $balcony
-     * @param $contact
+     * @param int $contact
      */
     public function __construct(
         $address, $square, $availability = 1,

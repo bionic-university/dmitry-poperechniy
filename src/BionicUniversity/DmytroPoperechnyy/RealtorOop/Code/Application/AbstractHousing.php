@@ -37,10 +37,10 @@ abstract class AbstractHousing
     protected $price;
 
     /**
-     * @param $address
-     * @param $square
-     * @param $price
-     * @param $contact
+     * @param string $address
+     * @param float $square
+     * @param float $price
+     * @param string $contact
      * @param int $availability
      */
     public function __construct($address, $square, $price, $contact, $availability = 1)
@@ -66,7 +66,7 @@ abstract class AbstractHousing
     }
 
     /**
-     * @param $address
+     * @param string $address
      */
     public function setAddress($address)
     {
@@ -82,7 +82,7 @@ abstract class AbstractHousing
     }
 
     /**
-     * @param $square
+     * @param float $square
      */
     public function setSquare($square)
     {
@@ -98,7 +98,7 @@ abstract class AbstractHousing
     }
 
     /**
-     * @param $available
+     * @param int $available
      */
     public function setAvailability($available)
     {
@@ -106,7 +106,7 @@ abstract class AbstractHousing
     }
 
     /**
-     * @param $price
+     * @param float $price
      */
     public function setPrice($price)
     {

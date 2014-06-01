@@ -1,4 +1,5 @@
 <?php
+
 namespace BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application;
 
 /**
