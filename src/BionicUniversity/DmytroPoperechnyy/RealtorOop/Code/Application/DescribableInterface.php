@@ -6,7 +6,7 @@ namespace BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application;
  * Interface DesribableInterface
  * @package BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application
  */
-interface DesribableInterface
+interface DescribableInterface
 {
     /**
      * @return mixed

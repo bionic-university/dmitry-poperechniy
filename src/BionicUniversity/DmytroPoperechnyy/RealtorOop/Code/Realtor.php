@@ -8,9 +8,7 @@
 
 namespace BionicUniversity\DmytroPoperechnyy\RealtorOop\Code;
 
-include('Application/DescribableInterface.php');
-
-use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\DesribableInterface;
+use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\DescribableInterface;
 use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\ContactableTrait;
 use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\Apartment;
 use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\House;
@@ -22,7 +20,7 @@ use BionicUniversity\DmytroPoperechnyy\RealtorOop\Code\Application\AbstractHousi
  *
  * @package BionicUniversity\DmytroPoperechnyy\RealtorOop\Code
  */
-class Realtor implements DesribableInterface
+class Realtor implements DescribableInterface
 {
     use ContactableTrait;
 
