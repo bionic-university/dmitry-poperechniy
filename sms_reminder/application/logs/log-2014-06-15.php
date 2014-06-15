@@ -4439,3 +4439,705 @@ DEBUG - 2014-06-15 15:05:51 --> Final output sent to browser
 ERROR - 2014-06-15 15:05:51 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
 DEBUG - 2014-06-15 15:05:51 --> Total execution time: 0.0297
 ERROR - 2014-06-15 15:05:51 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Config Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Hooks Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Utf8 Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> UTF-8 Support Enabled
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> URI Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Router Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Output Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Security Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Input Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Global POST and COOKIE data sanitized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Language Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Loader Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Helper loaded: url_helper
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Helper loaded: send_sms_helper
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Database Driver Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:08:18 --> 0
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:08:18 --> 5
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:08:18 --> 6
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:08:18 --> 4
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Session Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Helper loaded: string_helper
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Session routines successfully run
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Model Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Model Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Controller Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Model Class Initialized
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> XSS Filtering completed
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> XSS Filtering completed
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> XSS Filtering completed
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> XSS Filtering completed
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Final output sent to browser
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:08:18 --> Total execution time: 0.0673
+ERROR - 2014-06-15 15:08:18 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:22 --> Config Class Initialized
+ERROR - 2014-06-15 15:09:22 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:22 --> Hooks Class Initialized
+ERROR - 2014-06-15 15:09:22 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:22 --> Utf8 Class Initialized
+ERROR - 2014-06-15 15:09:22 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:22 --> UTF-8 Support Enabled
+ERROR - 2014-06-15 15:09:22 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:22 --> URI Class Initialized
+ERROR - 2014-06-15 15:09:22 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:22 --> Router Class Initialized
+ERROR - 2014-06-15 15:09:22 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:09:22 --> 404 Page Not Found --> r
+ERROR - 2014-06-15 15:09:22 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Config Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Hooks Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Utf8 Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> UTF-8 Support Enabled
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> URI Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Router Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> No URI present. Default controller set.
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Output Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Security Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Input Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Global POST and COOKIE data sanitized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Language Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Loader Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Helper loaded: url_helper
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Helper loaded: send_sms_helper
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Database Driver Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:09:28 --> 0
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:09:28 --> 5
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:09:28 --> 6
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:09:28 --> 4
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Session Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Helper loaded: string_helper
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Session routines successfully run
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Model Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Model Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Controller Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Model Class Initialized
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> File loaded: application/views/login_logined.php
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> File loaded: application/views/header.php
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> File loaded: application/views/index.php
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> File loaded: application/views/footer.php
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Final output sent to browser
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:28 --> Total execution time: 0.0439
+ERROR - 2014-06-15 15:09:28 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Config Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Hooks Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Utf8 Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> UTF-8 Support Enabled
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> URI Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Router Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Output Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Security Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Input Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Global POST and COOKIE data sanitized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Language Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Loader Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Helper loaded: url_helper
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Helper loaded: send_sms_helper
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Database Driver Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:09:46 --> 0
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:09:46 --> 5
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:09:46 --> 6
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:09:46 --> 4
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Session Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Helper loaded: string_helper
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Session routines successfully run
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Model Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Model Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Controller Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Model Class Initialized
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> XSS Filtering completed
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> XSS Filtering completed
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> XSS Filtering completed
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> XSS Filtering completed
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Final output sent to browser
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:09:46 --> Total execution time: 0.0728
+ERROR - 2014-06-15 15:09:46 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Config Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Hooks Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Utf8 Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> UTF-8 Support Enabled
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> URI Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Router Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Output Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Security Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Input Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Global POST and COOKIE data sanitized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Language Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Loader Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Helper loaded: url_helper
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Helper loaded: send_sms_helper
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Database Driver Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:10:13 --> 0
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:10:13 --> 5
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:10:13 --> 6
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:10:13 --> 4
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Session Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Helper loaded: string_helper
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Session routines successfully run
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Model Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Model Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Controller Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Model Class Initialized
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> XSS Filtering completed
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> XSS Filtering completed
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> XSS Filtering completed
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> XSS Filtering completed
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Final output sent to browser
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:10:13 --> Total execution time: 0.0726
+ERROR - 2014-06-15 15:10:13 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Config Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Hooks Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Utf8 Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> UTF-8 Support Enabled
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> URI Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Router Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> No URI present. Default controller set.
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Output Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Security Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Input Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Global POST and COOKIE data sanitized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Language Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Loader Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Helper loaded: url_helper
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Helper loaded: send_sms_helper
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Database Driver Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:37 --> 0
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:37 --> 5
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:37 --> 6
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:37 --> 4
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Session Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Helper loaded: string_helper
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Session routines successfully run
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Model Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Model Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Controller Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Model Class Initialized
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> File loaded: application/views/login_logined.php
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> File loaded: application/views/header.php
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> File loaded: application/views/index.php
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> File loaded: application/views/footer.php
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Final output sent to browser
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:37 --> Total execution time: 0.0367
+ERROR - 2014-06-15 15:46:37 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Config Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Hooks Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Utf8 Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> UTF-8 Support Enabled
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> URI Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Router Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Output Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Security Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Input Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Global POST and COOKIE data sanitized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Language Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Loader Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Helper loaded: url_helper
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Helper loaded: send_sms_helper
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Database Driver Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:38 --> 0
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:38 --> 5
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:38 --> 6
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:38 --> 4
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Session Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Helper loaded: string_helper
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Session routines successfully run
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Model Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Model Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Controller Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Model Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Config Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Hooks Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Utf8 Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> UTF-8 Support Enabled
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> URI Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Router Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> No URI present. Default controller set.
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Output Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Security Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Input Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Global POST and COOKIE data sanitized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Language Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Loader Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Helper loaded: url_helper
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Helper loaded: send_sms_helper
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Database Driver Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:38 --> 0
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:38 --> 5
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:38 --> 6
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:38 --> 4
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Session Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Helper loaded: string_helper
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Session routines successfully run
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Model Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Model Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Controller Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Model Class Initialized
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> File loaded: application/views/login_unlogined.php
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> File loaded: application/views/header.php
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> File loaded: application/views/index.php
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> File loaded: application/views/footer.php
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Final output sent to browser
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:38 --> Total execution time: 0.0215
+ERROR - 2014-06-15 15:46:38 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Config Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Hooks Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Utf8 Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> UTF-8 Support Enabled
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> URI Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Router Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Output Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Security Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Input Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Global POST and COOKIE data sanitized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Language Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Loader Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Helper loaded: url_helper
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Helper loaded: send_sms_helper
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Database Driver Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:40 --> 0
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:40 --> 5
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:40 --> 6
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:46:40 --> 4
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Session Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Helper loaded: string_helper
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Session routines successfully run
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Model Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Model Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Controller Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Model Class Initialized
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> File loaded: application/views/login_unlogined.php
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> File loaded: application/views/header.php
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> File loaded: application/views/registration_form.php
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> File loaded: application/views/footer.php
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Final output sent to browser
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:46:40 --> Total execution time: 0.0369
+ERROR - 2014-06-15 15:46:40 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Config Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Hooks Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Utf8 Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> UTF-8 Support Enabled
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> URI Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Router Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Output Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Security Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Input Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Global POST and COOKIE data sanitized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Language Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Loader Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Helper loaded: url_helper
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Helper loaded: send_sms_helper
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Database Driver Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:47:32 --> 0
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:47:32 --> 5
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:47:32 --> 6
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:47:32 --> 4
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Session Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Helper loaded: string_helper
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Session routines successfully run
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Model Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Model Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Controller Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:32 --> Model Class Initialized
+ERROR - 2014-06-15 15:47:32 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Config Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Hooks Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Utf8 Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> UTF-8 Support Enabled
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> URI Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Router Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Output Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Security Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Input Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Global POST and COOKIE data sanitized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Language Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Loader Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Helper loaded: url_helper
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Helper loaded: send_sms_helper
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Database Driver Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:47:35 --> 0
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:47:35 --> 5
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:47:35 --> 6
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:47:35 --> 4
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Session Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Helper loaded: string_helper
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Session routines successfully run
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Model Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Model Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Controller Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Model Class Initialized
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> File loaded: application/views/login_unlogined.php
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> File loaded: application/views/header.php
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> File loaded: application/views/registration-confirm-page.php
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> File loaded: application/views/footer.php
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Final output sent to browser
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:47:35 --> Total execution time: 0.0338
+ERROR - 2014-06-15 15:47:35 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Config Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Hooks Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Utf8 Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> UTF-8 Support Enabled
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> URI Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Router Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> No URI present. Default controller set.
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Output Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Security Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Input Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Global POST and COOKIE data sanitized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Language Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Loader Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Helper loaded: url_helper
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Helper loaded: send_sms_helper
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Database Driver Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:48:08 --> 0
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:48:08 --> 5
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:48:08 --> 6
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+ERROR - 2014-06-15 15:48:08 --> 4
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Session Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Helper loaded: string_helper
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Session routines successfully run
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Model Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Model Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Controller Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Model Class Initialized
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> File loaded: application/views/login_unlogined.php
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> File loaded: application/views/header.php
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> File loaded: application/views/index.php
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> File loaded: application/views/footer.php
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Final output sent to browser
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106
+DEBUG - 2014-06-15 15:48:08 --> Total execution time: 0.0295
+ERROR - 2014-06-15 15:48:08 --> Severity: Warning  --> chmod(): Operation not permitted /Users/transversus/Sites/magento/system/libraries/Log.php 106

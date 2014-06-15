@@ -19,7 +19,8 @@
 </style>
 <script>
     $(document).ready(function(){
-        //console.log( "ready!" );
+
+
        $('#datetimepicker').datetimepicker({
             format:	'd.m.Y H:i',
             formatTime:	'H:i',
@@ -30,6 +31,55 @@
            var answer = confirm('Are you sure you want to cancel your account?');
            return answer;
         });
+
+
+        $("#registrationForm").validate({
+            rules: {
+                loginInput: {
+                    required: true,
+                    minlength: 2
+                },
+                emailInput: {
+                    required: true,
+                    email: true
+                },
+                phoneInput: {
+                    required: true,
+                    digits : true,
+                    minlength: 2
+                },
+                passwordInput: {
+                    required: true,
+                    minlength: 5
+                },
+                passwordConfirmationInput: {
+                    required: true,
+                    minlength: 5,
+                    equalTo: "#passwordInput"
+                }
+
+            },
+            messages: {
+                loginInput: "Please enter your login",
+                emailInput: "Please enter a valid email address",
+                phoneInput: {
+                    required: "Please enter a phone number",
+                    digits: "Digits only",
+                    minlength: "Your username must consist of at least 2 characters"
+                },
+                passwordInput: {
+                    required: "Please provide a password",
+                    minlength: "Your password must be at least 5 characters long"
+                },
+                passwordConfirmationInput: {
+                    required: "Please provide a password",
+                    minlength: "Your password must be at least 5 characters long",
+                    equalTo: "Please enter the same password as above"
+                }
+            }
+        });
+
+
     });
 </script>
 </html>
