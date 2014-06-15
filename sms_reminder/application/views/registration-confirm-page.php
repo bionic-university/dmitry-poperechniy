@@ -1,0 +1,1 @@
+<h4>To continue regisration pls check your email.</h4>
