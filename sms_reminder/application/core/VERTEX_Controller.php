@@ -8,6 +8,7 @@ class VERTEX_Controller extends CI_Controller
     function __construct()
     {
         parent::__construct();
+        //$this->output->enable_profiler(TRUE);
         //$this->load->model('Parent_Model');
     }
 
@@ -18,7 +19,7 @@ class VERTEX_Controller extends CI_Controller
             $login_page =  $this->parser->parse('login_logined', array('username' => $this->session->userdata('user_name')), TRUE);
         } else
         {
-            $login_page =  $this->parser->parse('login_unlogined', array(), TRUE);
+            $login_page =  $this->parser->parse('login_unlogined', array('notification' => $this->session->flashdata('notification')), TRUE);
         }
         
         echo $this->parser->parse('header', array('login_page' => $login_page), TRUE);

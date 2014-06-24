@@ -8,6 +8,11 @@ class User_Model extends Parent_Model
     {
         parent::__construct();
     }
+
+    public function check_registration($login, $password)
+    {
+        return $this->get_value("SELECT count(*) FROM users WHERE login = ? AND password = ?", array($login, $password)) > 0;
+    }
     
     public function registrate_user($login, $email, $phone, $password, $guid)
     {
@@ -42,6 +47,18 @@ class User_Model extends Parent_Model
 
     public function cancel_account($id)
     {
-        return $this->run('Delete from users where id = ?',$id);
+        //return $this->run('Delete from users where id = ?',$id);
+
+        $this->START();
+
+        $sql1 = "DELETE FROM reminds where user_id = ?";
+        $sql2 = "DELETE FROM repeats where user_id = ?";
+        $sql3 = "DELETE FROM users where id = ?";
+
+        $this->run($sql1, $id);
+        $this->run($sql2, $id);
+        $this->run($sql3, $id);
+
+        $this->COMMIT();
     }
 }

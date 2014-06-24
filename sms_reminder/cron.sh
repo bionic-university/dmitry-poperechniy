@@ -1,0 +1,1 @@
+/usr/local/php53/bin/php -f /home/transver/transversus.net/www/cron.php

@@ -31,10 +31,20 @@ class User_controller extends VERTEX_Controller
         $phone = $this->input->post('phoneInput', FALSE);
         $password = $this->input->post('passwordInput', FALSE);
         $guid = uniqid();        
-        
+
+        /**
+         * TODO: process situation
+         */
+        $user = $this->User_Model->check_registration($login, md5($password));
+        if ($user == true) {
+            //User with such login, password already exists
+            redirect(base_url('/registration'), 'location', 303);
+        }
+
         $user = $this->User_Model->registrate_user($login, $email, $phone, md5($password), $guid);
 
         send2($email, "To continue registration pls follow the link http://magento.local/confirm-registration/$guid", 'Registrations on SMSReminder');
+        //mail($email, 'Registrations on SMSReminder', "To continue registration pls follow the link http://magento.local/confirm-registration/$guid");
         //TODO: if there exists same user, or same password - redirect to other page
         redirect('/registration-confirm-page');
     }
@@ -73,6 +83,7 @@ class User_controller extends VERTEX_Controller
         if ($user === FALSE)
         {
             //TODO: process situation
+            $this->session->set_flashdata('notification', 'User login or password is incorrect.');
             redirect(base_url('/'), 'location', 303);
         }
         else

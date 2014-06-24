@@ -1,4 +1,4 @@
-        <form class="form" method="POST" action="/reminds/create">
+        <form class="form" method="POST" id="smsForm" action="/reminds/create">
                 <div class="row" style="margin: 10px auto">
                     <div class="col-md-3">
                         <h2 style="color: red">Cell number</number></h2>
@@ -66,12 +66,15 @@
                     </div>
                 </div>
             </form>
+<div><h2>{notification_new_reminder}</h2></div>
                 <div class="row">
                     <h3>Upcoming reminders</h3>
                     <span>
-                        <i>You don't have any scheduled reminders.</i>
+                        {upcoming_reminders}
                     </span>
                     <h3>Sent reminders</h3>
-                    <span>You haven't sent any reminders yet.</span>
+                    <span>
+                            {sent_reminders}
+                    </span>
                 </div>
         </form>

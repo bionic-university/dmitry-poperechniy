@@ -12,19 +12,39 @@ class Reminder_controller extends VERTEX_Controller
     }
 
     public function index()
-    {
-        $this->view_page('index', 'My Blog Title', 'My Blog Description');
+    {        
+        $upcoming_reminders = $this->parser->parse('user_reminds/upcoming_reminds_empty', array(), TRUE);
+        $sent_reminders = $this->parser->parse('user_reminds/sent_reminds_empty', array(), TRUE);       
+     
+        if ($this->session->userdata('user_id') !== FALSE) {
+            $upcomingReminders = $this->Reminder_Model->getUpcomingReminders($this->session->userdata('user_id'));
+            if ($upcomingReminders !== FALSE) 
+                $upcoming_reminders = $this->parser->parse('/user_reminds/upcoming_reminds_not_empty', array('reminds' => $upcomingReminders), TRUE);
+
+            $sentReminders = $this->Reminder_Model->getSentReminders($this->session->userdata('user_id'));
+            if ($sentReminders !== FALSE) 
+                $sent_reminders = $this->parser->parse('/user_reminds/sent_reminds_not_empty', array('reminds' => $sentReminders), TRUE);
+        }
+        
+        $notification = $this->session->flashdata('notification_new_reminder');
+        $this->view_page('index', 'My Blog Title', 'My Blog Description', array('upcoming_reminders' => $upcoming_reminders, 'sent_reminders' => $sent_reminders, 'notification_new_reminder' => $notification));        
     }
         
     public function create()
     {
-        $userId = $this->session->userdata('user_id');
-        $phone = $this->input->post('phonenumberInput', TRUE);
-        $dateTime = $this->input->post('datetimepicker', TRUE);
-        $message = $this->input->post('textInput', TRUE);
-        $repeat = $this->input->post('repeatInput', TRUE);
+        if ($this->session->userdata('user_id') !== FALSE) {
+            $userId = $this->session->userdata('user_id');
+            $phone = $this->input->post('phonenumberInput', TRUE);
+            $dateTime = $this->input->post('datetimepicker', TRUE);
+            $message = $this->input->post('textInput', TRUE);
+            $repeat = $this->input->post('repeatInput', TRUE);
         
-        $this->Reminder_Model->createRemind($userId, $phone, $dateTime, $message, $repeat);
+            $this->Reminder_Model->createRemind($userId, $phone, $dateTime, $message, $repeat);
+        } else {
+            $this->session->set_flashdata('notification_new_reminder', 'Only logined users can create sms reminders.');   
+        }
+        redirect('/'); 
+        
     }
     
     public function process_reminds()
@@ -44,6 +64,8 @@ class Reminder_controller extends VERTEX_Controller
     public function process_repeats()
     {        
         $this->Reminder_Model->process_repeats();
-    }   
+    }
+
+   
 
 }

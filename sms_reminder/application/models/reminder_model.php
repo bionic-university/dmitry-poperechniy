@@ -44,6 +44,7 @@ class Reminder_Model extends Parent_Model
         $this->run($sql, array($user_id, $phone_number, $send_datetime,$send_datetime,$send_datetime,$send_datetime,$send_datetime,$send_datetime, $this->GetRemindType($repeat), $message));
         
     }
+
     
     public function createRemind($user_id, $phone_number, $send_datetime, $message, $repeat)
     {
@@ -57,6 +58,12 @@ class Reminder_Model extends Parent_Model
     {
         $sql = "SELECT * FROM reminds WHERE send_datetime < NOW() AND status = 'unsent'"; 
         return $this->get($sql);
+    }
+
+    public function countUpcomingReminders($id)
+    {
+        $sql = "SELECT count(*) FROM reminds WHERE status = 'unsent' AND id = ?";
+        return $this->get($sql, $id);
     }
     
     public function mark_as_sent_reminder($id)
@@ -231,6 +238,18 @@ class Reminder_Model extends Parent_Model
         $this->run($sql2);
         $this->run($sql3);
         $this->COMMIT();
+    }
+    
+    public function getUpcomingReminders($userId) 
+    {
+        $sql = "SELECT * FROM reminds WHERE user_id = ? AND status = 'unsent' ORDER BY send_datetime LIMIT 5";
+        return $this->get($sql, $userId);
+    }
+    
+    public function getSentReminders($userId) 
+    {
+        $sql = "SELECT * FROM reminds WHERE user_id = ? AND status = 'sent' ORDER BY send_datetime limit 5";
+        return $this->get($sql, $userId);
     }
         
 }
