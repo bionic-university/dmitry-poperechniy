@@ -3,8 +3,14 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
+/**
+ * Class User_controller
+ */
 class User_controller extends VERTEX_Controller
 {
+    /**
+     * @constructor
+     */
     function __construct()
     {
         parent::__construct();
@@ -12,6 +18,15 @@ class User_controller extends VERTEX_Controller
         $this->load->library('PHPMailer');
     }
 
+    /**
+     * View Page
+     *
+     * @param $page
+     * @param $title
+     * @param $description
+     * @param null $params
+     * @return void
+     */
     protected function view_page($page, $title, $description, $params = NULL)
     {
         $this->view_header($title, $description);
@@ -19,11 +34,19 @@ class User_controller extends VERTEX_Controller
         $this->view_footer();
     }
 
+    /**
+     * View Registration Form
+     * @return void
+     */
     public function registration_form()
     {
         $this->view_page('registration_form', 'Registration Form', array());
     }
-    
+
+    /**
+     * Registrate User
+     * @return void
+     */
     public function registrate()
     {
         $login = $this->input->post('loginInput', FALSE);
@@ -32,9 +55,7 @@ class User_controller extends VERTEX_Controller
         $password = $this->input->post('passwordInput', FALSE);
         $guid = uniqid();        
 
-        /**
-         * TODO: process situation
-         */
+        // TODO: process situation
         $user = $this->User_Model->check_registration($login, md5($password));
         if ($user == true) {
             //User with such login, password already exists
@@ -42,18 +63,26 @@ class User_controller extends VERTEX_Controller
         }
 
         $user = $this->User_Model->registrate_user($login, $email, $phone, md5($password), $guid);
-
         send2($email, "To continue registration pls follow the link http://magento.local/confirm-registration/$guid", 'Registrations on SMSReminder');
         //mail($email, 'Registrations on SMSReminder', "To continue registration pls follow the link http://magento.local/confirm-registration/$guid");
         //TODO: if there exists same user, or same password - redirect to other page
+
         redirect('/registration-confirm-page');
     }
-    
+
+    /**
+     * View Registration Confirm Page
+     * @return void
+     */
     public function registration_confirm_page()
     {
         $this->view_page('registration-confirm-page', 'Registration Confirm page', array());
     }
 
+    /**
+     * Log Out
+     * @return void
+     */
     public function logoff()
     {
         $this->session->unset_userdata('user_id');    
@@ -61,10 +90,16 @@ class User_controller extends VERTEX_Controller
         
         redirect('/');        
     }
-    
+
+    /**
+     * Confirm Registration
+     *
+     * @param $guid
+     * @return void
+     */
     public function confirm_registration($guid)
     {
-        $data = $this->User_Model->finilize_registration($guid);
+        $data = $this->User_Model->complete_registration($guid);
         if ($data === false)
             return; //TODO: process fail
             
@@ -74,6 +109,10 @@ class User_controller extends VERTEX_Controller
         redirect('/');
     }
 
+    /**
+     * Login
+     * @return void
+     */
     public function login()
     {
         $login = $this->input->post('login', TRUE);
@@ -95,6 +134,10 @@ class User_controller extends VERTEX_Controller
         }
     }
 
+    /**
+     * Cancel/delete User Account
+     * @return void
+     */
     public function cancel()
     {
         $id = $this->session->userdata('user_id');
@@ -106,6 +149,10 @@ class User_controller extends VERTEX_Controller
         redirect('/cancel-confirm-page');
     }
 
+    /**
+     * View Cancel Confirm Page
+     * @return void
+     */
     public function cancel_confirm_page()
     {
         $this->view_page('cancel-confirm-page', 'Cancel account confirm page', array());

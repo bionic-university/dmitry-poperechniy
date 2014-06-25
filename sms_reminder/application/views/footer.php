@@ -1,9 +1,7 @@
     <div class="row" id="footer">
         <div class="col-md-12">
             <p class="footer">
-            <h2 style="text-align: center">Page rendered in <strong>
-                    FOOTER
-                </strong> seconds</h2>
+            <h2 style="text-align: center">FOOTER</h2>
             </p>
         </div>
     </div>

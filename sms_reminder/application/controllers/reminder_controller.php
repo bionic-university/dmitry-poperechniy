@@ -5,12 +5,19 @@ if (!defined('BASEPATH'))
 
 class Reminder_controller extends VERTEX_Controller
 {
+    /**
+     * @constructor
+     */
     function __construct()
     {
         parent::__construct();
         $this->load->model('Reminder_Model');
     }
 
+    /**
+     * Index Function
+     * @return void
+     */
     public function index()
     {        
         $upcoming_reminders = $this->parser->parse('user_reminds/upcoming_reminds_empty', array(), TRUE);
@@ -18,18 +25,22 @@ class Reminder_controller extends VERTEX_Controller
      
         if ($this->session->userdata('user_id') !== FALSE) {
             $upcomingReminders = $this->Reminder_Model->getUpcomingReminders($this->session->userdata('user_id'));
-            if ($upcomingReminders !== FALSE) 
+            if ($upcomingReminders !== FALSE) {
                 $upcoming_reminders = $this->parser->parse('/user_reminds/upcoming_reminds_not_empty', array('reminds' => $upcomingReminders), TRUE);
-
+            }
             $sentReminders = $this->Reminder_Model->getSentReminders($this->session->userdata('user_id'));
-            if ($sentReminders !== FALSE) 
+            if ($sentReminders !== FALSE) {
                 $sent_reminders = $this->parser->parse('/user_reminds/sent_reminds_not_empty', array('reminds' => $sentReminders), TRUE);
+            }
         }
         
         $notification = $this->session->flashdata('notification_new_reminder');
         $this->view_page('index', 'My Blog Title', 'My Blog Description', array('upcoming_reminders' => $upcoming_reminders, 'sent_reminders' => $sent_reminders, 'notification_new_reminder' => $notification));        
     }
-        
+
+    /**
+     * Create reminder
+     */
     public function create()
     {
         if ($this->session->userdata('user_id') !== FALSE) {
@@ -46,26 +57,38 @@ class Reminder_controller extends VERTEX_Controller
         redirect('/'); 
         
     }
-    
+
+    /**
+     * Process Reminders
+     * @return void
+     */
     public function process_reminds()
     {
-        $data = $this->Reminder_Model->get_unset_reminds();  
+        $data = $this->Reminder_Model->get_unsent_reminds();
         for ($i = 0; $i < count($data); $i++) {
             $this->send_remind($data[$i]['id'], $data[$i]['phone_number'], $data[$i]['message']);
         }
     }
-    
+
+    /**
+     * Send Remind via send sms
+     * @param $id
+     * @param $phone_number
+     * @param $message
+     * @return void
+     */
     private function send_remind($id, $phone_number, $message)
     {
        send_sms($phone_number, $message);
        $this->Reminder_Model->mark_as_sent_reminder($id);
     }
-    
+
+    /**
+     * Process Repeats
+     * @return void
+     */
     public function process_repeats()
     {        
         $this->Reminder_Model->process_repeats();
     }
-
-   
-
 }
